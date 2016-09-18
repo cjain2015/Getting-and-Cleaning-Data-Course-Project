@@ -5,12 +5,12 @@ Final course project for Getting and Cleaning Data Cleaning Course
 This repository lists the R code and documentation files for final course project for Getting and Cleaning Data 
 
 A full description of the data used in this project can be found at The UCI Machine Learning Repository
-The dataset being used is: Human Activity Recognition Using Smartphones
+The dataset being used is: Human Activity Recognition Using Smartphones found at - 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 This project goal is to collect data from internet and cleaning it to produce a tidy data set so that it can be used for subsequent analysis. 
 
-# Listing of the project instructions:
+# Project instructions:
 
 Create R script called run_analysis.R that does the following. 
 1. Merges the training and the test sets to create one data set.
@@ -20,7 +20,7 @@ Create R script called run_analysis.R that does the following.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of 
    each variable for each activity and each subject.
 
-Additional Information can be found in the following files:
+# Files in the repo:
 
 1. run_analysis.R:  The source code of the script for achieving all 5 steps of the project. This script was developed and run on a Windows machine. As per the instructions of the project, script / program assumes that data for this project is already avaialble in the working directory and is unzipped. So it starts looking for "UCI HAR Dataset" directory in the working directory.
 
