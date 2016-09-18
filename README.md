@@ -22,10 +22,7 @@ Create R script called run_analysis.R that does the following.
 
 # Files in the repo:
 
-1. run_analysis.R:  The source code of the script for achieving all 5 steps of the project. This script was developed and run on a Windows machine. As per the instructions of the project, script / program assumes that data for this project is already avaialble in the working directory and is unzipped. So it starts looking for "UCI HAR Dataset" directory in the working directory.
-
-Let's say your working directory is C:/coursera then it assumes that data is in C:/coursera/UCI HAR Dataset directory.
-it further assumes that all the data is present in the same folder, un-compressed and without names altered.
+1. run_analysis.R:  The source code of the script for achieving all 5 steps of the project. This script was developed and run on a Windows machine. As per the instructions of the project, script / program assumes that data for this project is already avaialble in the working directory and is unzipped. So it starts looking for "UCI HAR Dataset" directory in the working directory. Let's say your working directory is C:/coursera then it assumes that data is in "C:/coursera/UCI HAR Dataset" directory. It further assumes that all the data is present in the same folder, un-zipped and with original file names.
 
 2. CodeBook.md: A code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, 
 and any other relevant information like any transformations or work performed to clean up the data.
