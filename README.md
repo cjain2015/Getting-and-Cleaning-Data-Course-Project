@@ -23,11 +23,12 @@ Create R script called run_analysis.R that does the following.
 # Files in the repo:
 
 1. run_analysis.R:  The source code of the script for achieving all 5 steps of the project. This script was developed and run on a Windows machine. As per the instructions of the project, script / program assumes that data for this project is already avaialble in the working directory and is unzipped. So it starts looking for "UCI HAR Dataset" directory in the working directory. Let's say your working directory is C:/coursera then it assumes that data is in "C:/coursera/UCI HAR Dataset" directory. It further assumes that all the data is present in the same folder, un-zipped and with original file names.
+This script generates an output file name tidy_data.txt in the working directory. Also it reads it back and opens it for easy viewing using View()
 
-2. CodeBook.md: A code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, 
+2. CodeBook.md: A code book that specifies the steps of the program, all the variables used, explains logic of various steps, and 
 and any other relevant information like any transformations or work performed to clean up the data.
 
 3. tidy_data.txt: When run_analysis is run, it generates output with filename tidy_data in your working directory. (C:/coursera as per example above)  This file (tidy_data.txt) is also uploaded through coursera's course project submission page.
 
-
+4. README.md - This file itself and it provides overview of the files in the repo. 
 
